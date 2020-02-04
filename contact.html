@@ -1,0 +1,81 @@
+<!-- contact.html file for Portfolio_Project
+Author: Alek Seawright
+V1 Released: 12/04/2019
+Description: This file defines the HTML for the "contact me" page of the portfolio-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+        <!--  default doc serttings  -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Alek Seawright - Portfolio</title>
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- create navbar -->
+    <nav class="navbar navbar-default navbar-expand-sm" role="navigation">
+            <div class="container">
+                <div class="col-sm-3">
+                    <a class = "page-scroll navbar-brand" href="#page-top">Alek Seawright</a>
+                </div>
+                <div class="col-sm-9">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <!-- create content -->
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="page-header col-sm-12">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+            <hr> <br>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form>
+                        <label for="name">Name</label> </br>
+                        <input type="text" id="name" name="name" value="Ex: John Wick"> </br></br>
+                        <label for="email">Email</label> </br>
+                        <input type="text" id="email" name="email" value="Ex: jwicksdog@hotmail.com"> </br></br>
+                        <label for="message">Message</label> </br>
+                        <input type="text" id="message" name="message"> </br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>       
+
+
+    <!-- push footer to bottom -->
+    <div class="contactspace"></div>
+
+    </div>
+    <!-- footer -->
+        <div class="navbar fixed-bottom ">
+                <div class="footer">
+                    <p> Copyright &copy; Alek Seawright </p>
+                </div>
+            </div>
+</body>
+
+</html>
