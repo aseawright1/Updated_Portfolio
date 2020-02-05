@@ -1,4 +1,5 @@
 /* global font styling */
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,39 +9,59 @@ body {
     background: darkgray;
     box-sizing: border-box;
     padding-bottom: 70px;
-  }
+}
+
 
 /* modifies navbar bg */
-.navbar{
+
+.navbar {
     padding: 30px;
     background: darkslateblue;
     border-bottom: 4px solid rgb(68, 132, 228);
 }
+
+
 /* modifies navbar list */
-.navbar-nav li a{
+
+.navbar-nav li a {
     text-decoration: none;
-    color: lightgray; }
-li { display: inline; }
-li+li { border-left: 2px solid rgb(156, 155, 155) }
+    color: lightgray;
+}
+
+li {
+    display: inline;
+}
+
+li+li {
+    border-left: 2px solid rgb(156, 155, 155)
+}
+
 
 /* modifies main header text */
-.navbar-brand{
+
+.navbar-brand {
     font-size: 70px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: lightgray;
     position: absolute;
     margin: -20px 20px;
 }
+
+
 /* modifies content box */
-.content{
+
+.content {
     padding: 30px 30px 40px 30px;
     margin-top: 100px;
     background-color: lightgray;
     border: 2px solid rgb(139, 139, 139);
     width: 100%;
 }
+
+
 /* modifies content header */
-.page-header{
+
+.page-header {
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
@@ -49,15 +70,32 @@ li+li { border-left: 2px solid rgb(156, 155, 155) }
     padding-bottom: 20px;
 }
 
-#headshot{
+#headshot {
     margin: 20px;
 }
 
+
 /* modifies portfolio page */
+
 .portfolio-proj-1 {
     position: relative;
 }
-.caption {
+
+.card {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+}
+
+
+/* .caption {
     position: absolute;
     bottom: 20px;
     text-decoration: none;
@@ -80,42 +118,50 @@ li+li { border-left: 2px solid rgb(156, 155, 155) }
     color: lightgray;
     width: 200px;
     height: 40px;
-  }
+  } */
+
+
 /* divider line */
+
 hr {
     display: block;
     background-color: darkgrey;
     height: 2px;
-  }
+}
 
 
-  /* text fields */
+/* text fields */
+
 input[type=text] {
     width: 100%;
     color: rgb(138, 138, 138);
-  }
-  input[type=submit] {
+}
+
+input[type=submit] {
     background-color: rgb(68, 132, 228);
     font-size: inherit;
     color: white;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     margin-top: 10px;
-  }
-  input[id=message] {
+}
+
+input[id=message] {
     height: 200px;
-  }
-  
+}
+
+
 /* modifies footer */
-.footer{
-  height: 100px;
-  width: 100%;
-  background: darkslateblue;
-  border-top: 10px solid rgb(68, 132, 228);
-  position: absolute;
-  margin-bottom: 0;
-  text-align: center;
-  color: lightgray;
-  font-size: small;
-  padding-top: 20px;
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background: darkslateblue;
+    border-top: 10px solid rgb(68, 132, 228);
+    position: absolute;
+    margin-bottom: 0;
+    text-align: center;
+    color: lightgray;
+    font-size: small;
+    padding-top: 20px;
 }
