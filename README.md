@@ -1,7 +1,7 @@
-# PortfolioProject-Bootstrap
+# Updated_Portfolio
 
 ## What this project is
-This is my second attempt at creating a repository for all of my past, current, and future projects. This time I use bootstrap instead of CSS styling.
+This is my attempt at updating my repository for all of my past, current, and future projects. This time I use bootstrap instead of CSS styling.
 
 ## Why I began this project
 I would eventually like to have a dedicated space to showcase all of my projects to potential clients and employers, and this portfolio is my way of doing that.
